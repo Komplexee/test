@@ -1,0 +1,88 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 40px;
+}
+
+.walk {
+    text-align: center;
+}
+
+.big_car{
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.clock {
+    padding-bottom: 12px;
+    padding-left: 30px;
+    margin: 0;
+    
+}
+
+
+.info {
+    margin: 0;
+}
+
+.top-lane {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.bottom-lane {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.album {
+    align-items: center; 
+    float: left;  
+    margin-left: 265px;
+}
+
+.image {
+    float: left;
+    padding: 5px;
+}
+header {
+ display: flex;
+ /*justify-content: space-between; */
+ align-items: center;
+ padding: 20px;
+ background-color: #fff;
+ color: #333;
+ box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+.header-logo{
+ margin-left: 20px;
+}
+.header-location {
+ margin-left: 50px;
+}
+.header-specs {
+ margin-left: 1220px;
+}
+.header-join{
+ margin-left: 50px;
+}
+
+.btn {   
+ background-color: red;
+ color: #fff;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ margin-left: 50px;
+}
+
+.test {
+    width: 180px;
+    height: 180px;
+}
